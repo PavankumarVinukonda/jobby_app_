@@ -1,0 +1,117 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #64748b;
+  height: 300px;
+  width: 600px;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+}
+
+.box-1 {
+  display: flex;
+  align-items: center;
+}
+
+.box-1-subbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.jobTitle {
+  font-family: roboto;
+  font-size: 20px;
+}
+
+.ratingContainer {
+  display: flex;
+  align-items: center;
+}
+
+.star {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  color: gold;
+}
+
+.ratinng {
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.box-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-2-sub-box {
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+  color: white;
+}
+
+.location {
+  font-family: roboto;
+  font-size: 20px;
+  color: white;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.box-2-subbox-2 {
+  display: flex;
+  align-items: center;
+}
+
+.salary {
+  font-family: roboto;
+  font-size: 20px;
+  color: white;
+  font-weight: solid;
+  margin-right: 10px;
+}
+
+.hrEl {
+  width: 590px;
+  height: 2px;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.deacription-heading {
+  font-family: roboto;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 15px;
+  font-family: roboto;
+  font-weight: solid;
+  color: white;
+}

@@ -1,0 +1,81 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #202020;
+  background-size: cover;
+}
+
+.websiteLogo {
+  height: 40px;
+  width: 200px;
+  margin-left: 20px;
+}
+
+.HomeIcon {
+  color: white;
+  margin-right: 20px;
+}
+
+@media (min-width: 576px) {
+  .HomeIcon {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .websiteLogo {
+    height: 20px;
+    width: 60px;
+    margin-right: 40px;
+  }
+
+  .thumbnail {
+    display: none;
+  }
+}
+
+.thumbnails-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.thumbnail {
+  font-family: roboto;
+  font-size: 20px;
+  color: white;
+
+  margin-left: 15px;
+}
+
+.linkel {
+  text-decoration: none;
+}
+
+.logout-button {
+  height: 40px;
+  width: 100px;
+  color: white;
+  font-size: 15px;
+  border-radius: 8px;
+  background-color: #4f46e5;
+  background-size: cover;
+  border: 0px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .logout-button {
+    display: none;
+  }
+}
+
+.btn {
+  background-color: transparent;
+  border: 0px;
+}
